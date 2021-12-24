@@ -9,7 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../public/ui/background-stars.svg);
+  /* background-image: url(../public/ui/background-stars.svg); */
+  background-image: url(https://manetoso.github.io/pwa-lofi-solar-system/ui/background-stars.svg);
   background-repeat: no-repeat;
   background-color: #0f172a;
   background-size: cover;
