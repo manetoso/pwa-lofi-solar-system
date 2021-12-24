@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../public/ui/background-stars.svg);
+  background-repeat: no-repeat;
+  background-color: #0f172a;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-mercury {
+  background-color: #419DB9;
+}
+.bg-venus {
+  background-color: #EDA44A;
+}
+.bg-earth {
+  background-color: #6F2ED6;
+}
+.bg-mars {
+  background-color: #D14E33;
+}
+.bg-jupiter {
+  background-color: #D93B36;
+}
+.bg-saturn {
+  background-color: #CB5020;
+}
+.bg-uranus {
+  background-color: #1EC2A4;
+}
+.bg-neptune {
+  background-color: #2D68F0;
+}
+
+.border-mercury {
+  border-color: #419DB9;
+}
+.border-venus {
+  border-color: #EDA44A;
+}
+.border-earth {
+  border-color: #6F2ED6;
+}
+.border-mars {
+  border-color: #D14E33;
+}
+.border-jupiter {
+  border-color: #D93B36;
+}
+.border-saturn {
+  border-color: #CB5020;
+}
+.border-uranus {
+  border-color: #1EC2A4;
+}
+.border-neptune {
+  border-color: #2D68F0;
+}
+
+/* #nav {
+  background: hsl(0 0% 100% / 0.1);
+  backdrop-filter: blur(1rem);
+} */

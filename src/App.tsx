@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  PlanetsContextProvider,
+  PlanetsIndexContextProvider,
+  TopicContextProvider
+} from './contexts/'
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PlanetsContextProvider>
+      <PlanetsIndexContextProvider>
+        <TopicContextProvider>
+          <Home />
+        </TopicContextProvider>
+      </PlanetsIndexContextProvider>
+    </PlanetsContextProvider>
+    // <div className="flex flex-col justify-center items-center min-h-screen">
+    //   <h1 className='bg-blue-500'>Hello</h1>
+    //   <img src="./icons/logo.png" alt="jajaj"/>
+    //   <img src="./icons/planet-earth-internal.svg" alt="jajaj"/>
+    // </div>
   );
 }
 
