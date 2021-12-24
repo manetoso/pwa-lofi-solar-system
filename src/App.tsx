@@ -14,11 +14,6 @@ function App() {
         </TopicContextProvider>
       </PlanetsIndexContextProvider>
     </PlanetsContextProvider>
-    // <div className="flex flex-col justify-center items-center min-h-screen">
-    //   <h1 className='bg-blue-500'>Hello</h1>
-    //   <img src="./icons/logo.png" alt="jajaj"/>
-    //   <img src="./icons/planet-earth-internal.svg" alt="jajaj"/>
-    // </div>
   );
 }
 

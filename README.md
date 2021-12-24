@@ -9,8 +9,7 @@ I used [`Framer Motion`](https://www.framer.com/motion/) to help me make those c
 
 ## Preview
 
-Preview online live web-app on: SOON :wink:
-<!-- Preview online live web-app on: [Lofi Solar System]() :wink: -->
+Preview online live web-app on: [Lofi Solar System](https://manetoso.github.io/pwa-lofi-solar-system/) :wink:
 
 ## Socialism
 
